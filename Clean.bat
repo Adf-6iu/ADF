@@ -1,5 +1,7 @@
-# ADF
 @echo off
+echo ************************
+echo * Junk Cleaner ADF-6iu *
+echo ************************
 if not “%1” == “max” start /MAX cmd /c %0 max & exit/b
 echo.
 echo Cleaning system junk files, please wait...
